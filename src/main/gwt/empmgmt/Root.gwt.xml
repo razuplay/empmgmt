@@ -1,0 +1,17 @@
+<module rename-to="appRoot">
+	<!-- Inherit the core Web Toolkit stuff -->
+	<inherits name="com.google.gwt.user.User"/>
+	<inherits name="com.google.gwt.i18n.I18N"/>
+
+	<!-- SmartGWT modules -->
+	<inherits name="com.smartgwt.SmartGwtNoScript"/>
+	<inherits name="com.smartgwt.SmartGwt"/>
+	<inherits name="com.smartgwt.tools.SmartGwtTools"/>
+
+	<!-- other modules -->
+	<inherits name='com.mvp4g.Mvp4gModule'/>
+
+	<entry-point class='com.mvp4g.client.Mvp4gEntryPoint'/>
+
+	<source path='client'/>
+</module>
